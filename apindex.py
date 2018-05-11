@@ -89,11 +89,11 @@ class File:
 
     def getIcon(self):
 
-        if self.isDir():
-            return self.FOLDER_ICON
-
         if self.filename == "..":
             return self.BACK_ICON
+
+        if self.isDir():
+            return self.FOLDER_ICON
 
         for icon in self.ICONS:
             for ex in icon.extensions:
