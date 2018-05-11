@@ -1,0 +1,14 @@
+Source: apindex
+Section: admin
+Priority: optional
+Maintainer: Ognjen Galic <smclt30p@gmail.com>
+Build-Depends: debhelper (>= 10), cmake
+Standards-Version: 4.1.2
+Homepage: https://thinkpads.org/projects/apindex
+
+Package: apindex
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
+Description: Static HTML file index generator
+ This program enables you to generate a file index for static web 
+ servers such as Github Pages or mini HTTP servers.

@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 2.6)
 
-include(CPack)
 project(apindex NONE)
 
 set(CPACK_PACKAGE_VENDOR "Ognjen Galic")
@@ -21,4 +20,4 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/apindex
                     GROUP_EXECUTE GROUP_READ
                     WORLD_EXECUTE WORLD_READ)
 
-
+include(CPack)
