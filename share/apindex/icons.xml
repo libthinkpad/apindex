@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<icons>
+    
+    <icon file="ar.png">
+        <ex>ar</ex>
+        <ex>zip</ex>
+        <ex>rar</ex>
+        <ex>gz</ex>
+        <ex>xz</ex>
+        <ex>gz2</ex>
+    </icon>
+
+    <icon file="image.png">
+        <ex>jpg</ex>
+        <ex>png</ex>
+        <ex>gif</ex>
+        <ex>tiff</ex>
+        <ex>svg</ex>
+    </icon>
+
+    <icon file="music.png">
+        <ex>mp3</ex>
+        <ex>wav</ex>
+        <ex>ogg</ex>
+        <ex>flac</ex>
+    </icon>
+
+    <icon file="package.png">
+        <ex>deb</ex>
+        <ex>rpm</ex>
+    </icon>
+
+    <icon file="patch.png">
+        <ex>patch</ex>
+    </icon>
+
+    <icon file="pdf.png">
+        <ex>pdf</ex>
+    </icon>
+
+    <icon file="script.png">
+        <ex>sh</ex>
+        <ex>py</ex>
+        <ex>rb</ex>
+        <ex>vbs</ex>
+        <ex>ps1</ex>
+    </icon>
+
+    <icon file="document.png">
+        <ex>xls</ex>
+        <ex>odt</ex>
+        <ex>ods</ex>
+        <ex>doc</ex>
+        <ex>docx</ex>
+        <ex>xlsx</ex>
+    </icon>
+
+    <icon file="conf.png">
+        <ex>conf</ex>
+        <ex>ini</ex>
+        <ex>asc</ex>
+    </icon>
+
+</icons>
