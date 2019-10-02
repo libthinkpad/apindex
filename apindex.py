@@ -166,9 +166,6 @@ class IndexWriter:
         html = html.replace("#FOOTER", footer)
         html = html.replace("#DIR", root.getPathFromRoot())
 
-        # add the back dir
-        dirsRead.append(File("..").toHTML())
-
         for file in root.getChildren():
             # we do not want to index the index itself
             if file.getFileName() == "index.html":
@@ -183,6 +180,10 @@ class IndexWriter:
         # fill in the file list
         dirsRead.sort()
         filesRead.sort()
+        
+        # add the back dir
+        dirsRead.append(File("..").toHTML())
+        
         html = html.replace("#GEN_DIRS", "".join(str(x) for x in dirsRead))
         html = html.replace("#GEN_FILES", "".join(str(x) for x in filesRead))
 
