@@ -36,7 +36,7 @@ This renders __Index of /__.
 
 ```
 tar -xf apindex-x.xx.tar.gz
-cp apindex-x.xx
+cd apindex-x.xx
 cmake . -DCMAKE_INSTALL_PREFIX=/usr
 sudo make install
 ```
